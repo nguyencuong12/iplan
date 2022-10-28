@@ -80,17 +80,17 @@ class _MyHomePageState extends State<MyHomePage> {
                                         print("Container was tapped");
                                       },
                                       child: Container(
-                                        height: 60,
+                                        height: 70,
                                         margin: const EdgeInsets.symmetric(
                                             horizontal: 10.0),
                                         width:
                                             MediaQuery.of(context).size.width,
                                         child: Row(children: [
-                                          SizedBox(width: 10),
+                                          SizedBox(width: 20),
                                           Text(
-                                            "asdsad",
+                                            "Sticker Collections",
                                             style: TextStyle(
-                                                fontSize: 22,
+                                                fontSize: 20,
                                                 color: Colors.white,
                                                 fontWeight: FontWeight.bold),
                                           ),
@@ -98,8 +98,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                         ]),
                                         decoration: BoxDecoration(
                                           image: const DecorationImage(
-                                            image:
-                                                AssetImage("assets/333.jpeg"),
+                                            image: AssetImage(
+                                                "assets/stickers_card.png"),
                                             fit: BoxFit.cover,
                                           ),
                                           borderRadius:
